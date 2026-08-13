@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.4.11612.150
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdparty", "3rdparty", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -19,19 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TTCloud", "TTCloud", "{DDB9
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GifSmiley", "3rdParty\GifSmiley\GifSmiley2003.vcxproj", "{5877050B-504E-4DFF-A78C-759C95E0DD06}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modules", "TTClient\Modules\Modules.vcxproj", "{CC562097-0695-4F0F-9C40-7F665F1E2C0C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modules", "TTClient\Modules\Modules.vcxproj", "{CC562097-0695-4F0F-9C40-7F665F1E2C0C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "3rdparty\DuiLib\DuiLib.vcxproj", "{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Network", "TTClient\Network\network.vcxproj", "{3436D6F0-A195-4BA4-A357-640A79612530}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "network", "TTClient\Network\network.vcxproj", "{3436D6F0-A195-4BA4-A357-640A79612530}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teamtalk", "TTClient\Teamtalk\teamtalk.vcxproj", "{13D89C19-A926-4935-BDCA-6D7D414850D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "teamtalk", "TTClient\Teamtalk\teamtalk.vcxproj", "{13D89C19-A926-4935-BDCA-6D7D414850D9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "TTClient\Utility\utility.vcxproj", "{C84BFF93-0361-4D44-B6BC-29157B500D8E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utility", "TTClient\utility\utility.vcxproj", "{C84BFF93-0361-4D44-B6BC-29157B500D8E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "3rdparty\cxImage\cxImage.vcxproj", "{056AB306-472B-4085-B955-939B72F01DC4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp", "3rdparty\jsoncpp\jsoncpp.vcxproj", "{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -451,42 +449,6 @@ Global
 		{056AB306-472B-4085-B955-939B72F01DC4}.Release|Win32.Build.0 = Release|Win32
 		{056AB306-472B-4085-B955-939B72F01DC4}.Release|x64.ActiveCfg = Release|x64
 		{056AB306-472B-4085-B955-939B72F01DC4}.Release|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_RTL_dll|Win32.ActiveCfg = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_RTL_dll|Win32.Build.0 = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_RTL_dll|x64.ActiveCfg = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_RTL_dll|x64.Build.0 = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_WM5_PPC_ARM|Win32.ActiveCfg = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_WM5_PPC_ARM|Win32.Build.0 = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_WM5_PPC_ARM|x64.ActiveCfg = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug_WM5_PPC_ARM|x64.Build.0 = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug|Win32.Build.0 = Debug|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug|x64.ActiveCfg = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Debug|x64.Build.0 = Debug|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_Dynamic|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_Dynamic|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_Dynamic|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_Dynamic|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_RTL_dll|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_RTL_dll|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_RTL_dll|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_RTL_dll|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE2|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE2|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE2|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_SSE2|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_WM5_PPC_ARM|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_WM5_PPC_ARM|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_WM5_PPC_ARM|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release_WM5_PPC_ARM|x64.Build.0 = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release|Win32.ActiveCfg = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release|Win32.Build.0 = Release|Win32
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release|x64.ActiveCfg = Release|x64
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -503,7 +465,6 @@ Global
 		{13D89C19-A926-4935-BDCA-6D7D414850D9} = {5119B5B5-1E1F-4BB1-A96D-4D36BF66C209}
 		{C84BFF93-0361-4D44-B6BC-29157B500D8E} = {5119B5B5-1E1F-4BB1-A96D-4D36BF66C209}
 		{056AB306-472B-4085-B955-939B72F01DC4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{A829BE7A-B729-4522-A0EB-BB2E9D4A7548} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6B62F69-0BEF-430A-BB8A-9FD7E5E18A0F}
