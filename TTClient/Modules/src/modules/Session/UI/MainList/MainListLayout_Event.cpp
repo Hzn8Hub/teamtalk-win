@@ -21,8 +21,8 @@
 #include <modules/Session/UI/UIRecentSessionList.h>
 #include <modules/Session/UI/UserDetailInfo/UserDetailInfoDialog.h>
 
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.File.pb.h>
 #include <protocol/IM.Message.pb.h>
 #include <utility/Multilingual.h>

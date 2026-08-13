@@ -5,7 +5,7 @@
 #include <modules/FileTransfer/FileTransferUIThread.h>
 #include <modules/FileTransfer/TransferFile.h>
 #include <modules/FileTransfer/TransferManager.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <protocol/IM.File.pb.h>
 #include <utility/utilCommonAPI.h>
 #include <utility/utilStrCodingAPI.h>

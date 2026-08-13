@@ -16,8 +16,8 @@
 #include <modules/ISysConfigModule.h>
 #include <modules/ITcpClientModule.h>
 #include <modules/IUserListModule.h>
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.BaseDefine.pb.h>
 #include <protocol/IM.SwitchService.pb.h>
 #include <utility/Multilingual.h>

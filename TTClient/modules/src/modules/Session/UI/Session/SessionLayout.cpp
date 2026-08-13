@@ -16,7 +16,7 @@
 #include <modules/MessageEntity.h>
 #include <modules/Session/SessionManager.h>
 #include <modules/Session/UI/Session/SessionLayout.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <protocol/IM.Message.pb.h>
 #include <utility/Multilingual.h>
 #include <utility/utilStrCodingAPI.h>

@@ -13,8 +13,8 @@
 #include <modules/Login/LoginDialog.h>
 #include <modules/Login/LoginModule_Impl.h>
 #include <modules/Login/ReloginManager.h>
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.Buddy.pb.h>
 #include <protocol/IM.Group.pb.h>
 #include <protocol/IM.Login.pb.h>

@@ -7,8 +7,8 @@
 #include <modules/ISysConfigModule.h>
 #include <modules/ITcpClientModule.h>
 #include <modules/Message/SendMsgManage.h>
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.Message.pb.h>
 #include <utility/utilStrCodingAPI.h>
 

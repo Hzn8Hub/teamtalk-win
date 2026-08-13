@@ -2,7 +2,7 @@
 #include "stdafx.h"
 #include <modules/ITcpClientModule.h>
 #include <modules/Session/Operation/SyncTimerTimer.h>
-#include <network/ImCore.h>
+#include <imcore/extra/imcore.h>
 #include <protocol/IM.Message.pb.h>
 
 SyncTimeTimer::SyncTimeTimer() : m_timeCount(0), m_serverTime(0) {

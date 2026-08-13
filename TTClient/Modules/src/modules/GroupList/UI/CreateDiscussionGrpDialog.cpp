@@ -5,7 +5,7 @@
 #include <modules/ITcpClientModule.h>
 #include <modules/IUserListModule.h>
 #include <modules/Session/UI/UIGroupsTreelist.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <protocol/IM.Group.pb.h>
 #include <utility/Multilingual.h>
 

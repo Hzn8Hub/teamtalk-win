@@ -10,8 +10,8 @@
 #define IEVENT_83A4713C_930E_426A_98F5_8BB8747994D3_H__
 
 #include <global_define.h>
-#include <utility/utilCommonAPI.h>
 #include <yaolog/yaolog.h>
+#include <utility/utilCommonAPI.h>
 
 namespace imcore {
 struct Exception;

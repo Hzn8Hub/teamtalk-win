@@ -13,14 +13,14 @@
 #ifndef IMODULEINTERFACE_26428D8B_4585_4660_95B3_94E8735700E9_H__
 #define IMODULEINTERFACE_26428D8B_4585_4660_95B3_94E8735700E9_H__
 
+#include <string>
 #include <functional>
 #include <global_define.h>
 #include <modules/Base/ICallbackOperationEvent.h>
 #include <modules/Base/IEvent.h>
 #include <modules/Base/UIEventManager.h>
 #include <modules/module_dll.h>
-#include <network/operation/Operation.h>
-#include <string>
+#include <imcore/operation/Operation.h>
 
 namespace imcore {
 class TTPBHeader;

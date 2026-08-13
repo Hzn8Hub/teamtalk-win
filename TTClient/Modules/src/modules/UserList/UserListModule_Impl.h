@@ -9,10 +9,10 @@
 #ifndef IUSERLISTMODULE_IMPL_9768C185_67AE_45BB_B840_F0A66E6A7044_H__
 #define IUSERLISTMODULE_IMPL_9768C185_67AE_45BB_B840_F0A66E6A7044_H__
 
-#include <modules/IUserListModule.h>
 #include <mutex>
-#include <network/core/ImPduBase.h>
 #include <string>
+#include <modules/IUserListModule.h>
+#include <imcore/impdu/im_pdu_base.h>
 
 class UserListModule_Impl final : public module::IUserListModule {
  public:

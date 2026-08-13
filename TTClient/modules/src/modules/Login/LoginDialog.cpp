@@ -19,7 +19,7 @@
 #include <modules/Login/LoginDialog.h>
 #include <modules/Login/LoginOperation.h>
 #include <modules/Login/DoLoginServerHttpOperation.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <utility/Multilingual.h>
 #include <utility/utilCommonAPI.h>
 #include <utility/utilStrCodingAPI.h>

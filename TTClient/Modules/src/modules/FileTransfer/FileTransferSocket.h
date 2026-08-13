@@ -14,8 +14,8 @@
 #include <modules/Base/IEvent.h>
 #include <modules/Base/ITimerEvent.h>
 #include <modules/ITcpClientModule.h>
-#include <network/core/ImPduBase.h>
-#include <network/core/im_conn.h>
+#include <imcore/imconn/im_conn.h>
+#include <imcore/impdu/im_pdu_base.h>
 
 class CImPdu;
 class FileTransferSocket;
@@ -35,7 +35,7 @@ class PingFileSevTimer : public module::ITimerEvent {
   FileTransferSocket* m_pFileTransSocket;
 };
 
-class FileTransferSocket : public ITcpSocketCallback {
+class FileTransferSocket : public imcore::ITcpSocketCallback {
  public:
   FileTransferSocket(std::string& taskId);
   ~FileTransferSocket(void);

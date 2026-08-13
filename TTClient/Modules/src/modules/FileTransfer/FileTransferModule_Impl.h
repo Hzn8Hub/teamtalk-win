@@ -2,8 +2,8 @@
 #ifndef FILETRANSFER_IMPL_AB8D6DD0_25EF_4809_A857_9450EEA7CBFE_H__
 #define FILETRANSFER_IMPL_AB8D6DD0_25EF_4809_A857_9450EEA7CBFE_H__
 
-#include <modules/FileTransfer/TransferManager.h>
 #include <modules/IFileTransferModule.h>
+#include <modules/FileTransfer/TransferManager.h>
 
 class FileTransferDialog;
 class FileTransferModule_Impl : public module::IFileTransferModule {

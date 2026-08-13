@@ -12,9 +12,9 @@
 #include <modules/IMiscModule.h>
 #include <modules/ISysConfigModule.h>
 
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
-#include <network/core/im_conn.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/imconn/im_conn.h>
+#include <imcore/impdu/im_pdu_base.h>
 
 FileTransferSocket::FileTransferSocket(std::string& taskId) : m_pPingTimer(nullptr), m_sTaskId(taskId) {}
 
@@ -74,7 +74,7 @@ void FileTransferSocket::onReceiveData(const char* data, int32_t size) {
     if (IM::BaseDefine::OtherCmdID::CID_OTHER_HEARTBEAT == pbHeader.getCommandId() &&
         IM::BaseDefine::ServiceID::SID_OTHER == pbHeader.getModuleId())
       return;
-  } catch (CPduException e) {
+  } catch (imcore::CPduException e) {
     LOG__(ERR,
           _T("onPacket CPduException serviceId:%d,commandId:%d,errCode:%d"),
           e.GetModuleId(),

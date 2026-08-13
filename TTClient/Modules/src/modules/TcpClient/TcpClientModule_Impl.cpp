@@ -15,7 +15,9 @@
 #include <modules/IUserListModule.h>
 #include <modules/base/ICallbackOpertaion.h>
 #include <modules/base/UIEventManager.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/imconn/im_conn.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.Login.pb.h>
 #include <protocol/IM.Other.pb.h>
 #include <utility/utilStrCodingAPI.h>

@@ -12,7 +12,7 @@
 #include <mmsystem.h>
 #include <modules/ISysConfigModule.h>
 #include <modules/Misc/MiscModule_Impl.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <utility/Multilingual.h>
 #include <utility/utilCommonAPI.h>
 #include <utility/utilStrCodingAPI.h>

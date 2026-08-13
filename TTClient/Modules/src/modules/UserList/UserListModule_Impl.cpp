@@ -7,18 +7,18 @@
 */
 
 #include "stdafx.h"
+#include <random>
 #include <cxImage/cxImage/ximage.h>
 #include <modules/IDatabaseModule.h>
 #include <modules/IMiscModule.h>
 #include <modules/ISessionModule.h>
 #include <modules/ISysConfigModule.h>
 #include <modules/ITcpClientModule.h>
-#include <modules/Session/Operation/DownloadAvatarHttpOperation.h>
 #include <modules/UserList/UserListModule_Impl.h>
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <modules/Session/Operation/DownloadAvatarHttpOperation.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.Buddy.pb.h>
-#include <random>
 #include <utility/utilStrCodingAPI.h>
 
 namespace module {
@@ -692,8 +692,8 @@ std::string UserListModule_Impl::randomGetUser(void) {
   module::UserInfoEntityVec allUserVec;
   std::lock_guard<std::mutex> lock(m_lock);
   for (auto kvp : m_mapUsers) {
-    if (kvp.second.gender != myInfo.gender)  // 只获取跟自己性别不同的
-    {
+    // 只获取跟自己性别不同的
+    if (kvp.second.gender != myInfo.gender) {
       allUserVec.push_back(kvp.second.sId);
     }
   }

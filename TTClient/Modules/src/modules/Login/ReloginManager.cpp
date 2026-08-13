@@ -17,7 +17,7 @@
 #include <modules/Base/ModuleObserver.h>
 #include <modules/Login/LoginOperation.h>
 #include <modules/Login/ReloginManager.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <protocol/IM.Buddy.pb.h>
 #include <utility/Multilingual.h>
 

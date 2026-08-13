@@ -9,10 +9,10 @@
 #ifndef TCPCLIENTMODULE_IMPL_7C021D09_7902_44DE_BE96_F22561B99198_H__
 #define TCPCLIENTMODULE_IMPL_7C021D09_7902_44DE_BE96_F22561B99198_H__
 
+#include <imcore/imconn/im_conn.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <modules/Base/ITimerEvent.h>
 #include <modules/ITcpClientModule.h>
-#include <network/core/ImPduBase.h>
-#include <network/core/im_conn.h>
 
 class TcpClientModule_Impl;
 using namespace module;
@@ -31,7 +31,9 @@ class ServerPingTimer : public module::ITimerEvent {
 
 // 客户端TCP网络长连接模块实现
 // 对TcpClientScoket做一个适配
-class TcpClientModule_Impl final : public ITcpClientModule, public ITcpSocketCallback {
+class TcpClientModule_Impl final : 
+	public ITcpClientModule, 
+	public imcore::ITcpSocketCallback {
   friend class ServerPingTimer;
 
  public:

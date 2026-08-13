@@ -15,7 +15,7 @@
 #include <modules/Session/UI/UIEAUserTreelist.h>
 #include <modules/Session/UI/UIGroupsTreelist.h>
 #include <modules/Session/UI/UIRecentSessionList.h>
-#include <network/ImCore.h>
+#include <imcore/extra/ImCore.h>
 #include <protocol/IM.Buddy.pb.h>
 #include <utility/Multilingual.h>
 

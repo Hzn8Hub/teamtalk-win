@@ -9,8 +9,8 @@
 #include <modules/ISysConfigModule.h>
 #include <modules/ITcpClientModule.h>
 #include <modules/Session/Operation/DownloadAvatarHttpOperation.h>
-#include <network/ImCore.h>
-#include <network/core/ImPduBase.h>
+#include <imcore/extra/ImCore.h>
+#include <imcore/impdu/im_pdu_base.h>
 #include <protocol/IM.Group.pb.h>
 #include <utility/Multilingual.h>
 #include <utility/utilStrCodingAPI.h>
