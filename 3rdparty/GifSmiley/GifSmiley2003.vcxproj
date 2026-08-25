@@ -53,8 +53,8 @@
     <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)_$(Platform)\bin</OutDir>
-    <IntDir>$(SolutionDir)$(Configuration)_$(Platform)\$(ProjectName)</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\bin</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <GenerateManifest>false</GenerateManifest>

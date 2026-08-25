@@ -72,8 +72,8 @@
     <IntDir>$(SolutionDir)\..\obj\$(Configuration)\$(ProjectName)_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)_$(Platform)\bin</OutDir>
-    <IntDir>$(SolutionDir)$(Configuration)_$(Platform)\$(ProjectName)</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\bin</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)</IntDir>
     <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
